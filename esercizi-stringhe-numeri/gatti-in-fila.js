@@ -17,3 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Ngatti=50
+var Fgatti=6
+
+
+F = (Math.ceil(Ngatti/Fgatti))
+M = ((Fgatti*F)-Ngatti)
+
+
+console.log("Mettendo " + Ngatti + " gatti in fila per " + Fgatti + " otterremo " + F + " file di gatti dove nell'ultima mancheranno " + M + " gatti per completarla");
