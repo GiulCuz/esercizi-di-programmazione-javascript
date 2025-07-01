@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var TempoSecondi=1200
+var Ore=(math.trunc(TempoSecondi/3600)
+var Minuti= (math.trunc(TempoSecondi-(Ore*3600))/60)
+var Secondi= (TempoSecondi-((Ore*3600)+(Minuti*60)))
+
+console.log(TempoSecondi +" = "+ Ore +" Ore, " + Minuti +" Minuti e " + Secondi +" Secondi");
